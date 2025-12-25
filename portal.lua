@@ -8,7 +8,7 @@ local playerInfo = {
 }
 print("This game was made by Casix\nYoutube >> @casixvii")
 sleep(1)
-print("This game uses a modified version of jankLoader\n")
+print("This game uses jankLoader\n")
 sleep(1)
 
 
@@ -37,3 +37,4 @@ end
 function game(map, x, y)
 	
 end
+
