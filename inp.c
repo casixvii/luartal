@@ -1,8 +1,9 @@
-#include <stdio.h>
 #include <conio.h>
+#include <stdio.h>
 
 int main() {
 	int key = getch();
-	putchar(key);
+	fputc(key, stdout);
+	fflush(stdout);
 	return 0;
 }
