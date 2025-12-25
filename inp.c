@@ -3,6 +3,6 @@
 
 int main() {
 	int key = getch();
-  putchar(key);
+	putchar(key);
 	return 0;
 }
