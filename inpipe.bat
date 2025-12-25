@@ -1,0 +1,1 @@
+inp.exe > uinp.jof
