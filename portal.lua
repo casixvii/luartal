@@ -11,6 +11,11 @@ sleep(1)
 print("This game uses a modified version of jankLoader\n")
 sleep(1)
 
+function getUserInput()
+	os.execute("cmd /c inpipe.bat")
+	local file = io.open(".\\uinp.bin", "r")
+	return file:read()
+end
 
 while true do
 	print("\27[2J\27[1;1HPORTAL")
@@ -19,7 +24,7 @@ while true do
 	print("[B] Bonus Maps")
 	print("[A] Achievements")
 	print("[Q] Quit")
-	local input = io.read():upper()
+	local input = getUserInput():upper()
 	if input == "N" then
 		game("00.cm", 5, 15)
 	elseif input == "Q" then
