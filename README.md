@@ -74,7 +74,7 @@ Documentation of surface types. You may want to write this down somewhere if you
 - Portallable? Yes
 - Portal passable? No
 - Collision? Yes
-- Texture: \27[107\27[38;5;153m░\27[100m
+- Texture: \27[107m\27[38;5;153m░\27[100m
 
 8
 
@@ -99,4 +99,4 @@ A
 - Portal passable? No
 - Collision? No
 - Special: Erases placed portals
-- Texture: \27[107;96m░\27[107m
+- Texture: \27[107;96m░\27[100m
